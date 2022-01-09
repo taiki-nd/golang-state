@@ -14,6 +14,7 @@ func LoggingSetting(logFile string) {
 }
 
 func main() {
+	LoggingSetting("test.log")
 	log.Println("logging")
 	log.Printf("%T, %v", "test", "test")
 
